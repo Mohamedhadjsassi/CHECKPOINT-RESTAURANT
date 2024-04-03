@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./parts/head.ejs') %>
+        <title>Yummy | contact</title>
+</head>
+
+<body>
+    <%- include('./parts/navbar.ejs') %>
+        <h1 style="color: wheat;">CONTACT Us</h1>
+
+        <h2>Register to be a regular <span>custommer</span> and get discounts </h2>
+
+        <form action="/Contact" method="post">
+            <input type="text" name="nom" placeholder="your name"/>
+            <input type="number" name="phone" placeholder="your phone number"/>
+            <input type="email" name="email" placeholder="your email"/>
+            <input type="date" name="anniverssay" placeholder="your anniverssay"/>
+            <input type="submit" value="Submit">
+        </form>
+    
+        <h2>What is your favourite dishs  </h2>
+        <form action="/Contact" method="post">
+            <input type="text" name="dish" placeholder="Pizzas"/>
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2>What is the usual service you require  </h2>
+        <form action="/Contact" method="post">
+            <input type="text" name="service" placeholder="coffee"/>
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2> Do you want to reserve a table  </h2>
+        <form action="/Contact" method="post">
+            <input type="time" name="time" placeholder="time of reservation"/>
+            <input type="text" name="food" placeholder="type of food"/>
+            <input type="submit" value="Submit">
+        </form>
+        <h2> Do you have any feedback  </h2>
+        <form action="/Contact" method="post">
+            <input type="text" name="feeback" placeholder="I loved the food but ..."/>
+            <input type="submit" value="Submit">
+        </form>
+
+        <h2 style="color: wheat;"> Remember your <span>tummy</span>  us the responsabilty of <span>Yummy</span> </h2>
+
+     
+</body>
+
+</html>

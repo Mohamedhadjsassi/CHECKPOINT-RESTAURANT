@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #09090f, #b1d334);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    color: #000033;
+  }
+  .NavBar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 35px black;
+    position: sticky;
+    top: 0;
+    margin: auto;
+    z-index: 1;
+    transition: width 0.3s, border-radius 0.3s ease;
+  }
+  a{
+    color : #b1d334;
+    text-decoration: none;
+    
+  }
+  .NavLinks{
+    display: flex;
+    justify-content: space-around;
+    gap:20px
+  }
+  span{
+    color: rgb(184, 54, 54);
+  }
+
+  .food{
+    height: 1000px;
+    width:auto;
+    background-image: url("https://www.fodors.com/wp-content/uploads/2018/09/19.-Kentucky-Cuisine-Tmato-Pie-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .footer-section{
+    background-color: #b1d334;
+  }
+
+  footer{
+    background-color: black;
+ 
+
+  }
+  @keyframes anim {
+    0%{transform: translateX(0)}
+    50%{transform: translateX(-2000px);}  
+    100%{transform: translateX(0)} 
+}
+
+.essen{
+  height: 300px;  
+  display: flex;
+
+  margin-top: 5px;
+    animation: anim 60s ease infinite;
+
+}
+
+  .essen > img{
+    height: 300px;
+    width: 400px; 
+   
+  } 
+  .essen2{
+    height: 300px;  
+    display: flex;
+  
+    margin-top: 50px;
+      animation: anim 60s ease infinite;
+  
+  }
+  
+    .essen2 > img{
+      height: 300px;
+      width: 400px; 
+     
+    } 
+
+    button{
+        background-color: #b1d334;
+        margin-top: 100px;
+        height: 60px;
+        width: 250px;
+        font-size: 15px;
+        color: aliceblue;
+        border-radius: 15px;
+        border-color: #b1d334;
+
+    }
+    .card {
+        height: 450px;
+        width: 400px;
+        background-color: #09090f;
+        margin: 10px; /* Adjust spacing between cards */
+        color: #b1d334;
+        position: relative;
+      }
+      
+      .card > img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Make the image responsive */
+      }
+      
+      .Service {
+        display: flex;
+        flex-wrap: wrap; /* Allow cards to wrap to the next line */
+        gap: 30px;
+        justify-content: center;
+        padding: 20px; /* Add padding to the container */
+      }
