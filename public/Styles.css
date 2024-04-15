@@ -39,7 +39,8 @@ body {
 
   .food{
     height: 1000px;
-    width:auto;
+    width:100%;
+    overflow-x: hidden;
     background-image: url("https://www.fodors.com/wp-content/uploads/2018/09/19.-Kentucky-Cuisine-Tmato-Pie-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
